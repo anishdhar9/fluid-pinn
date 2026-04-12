@@ -1,0 +1,1 @@
+"""Boundary handling module scaffolding."""

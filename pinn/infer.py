@@ -1,0 +1,1 @@
+"""PINN inference module scaffolding."""
