@@ -2,12 +2,6 @@
 
 from __future__ import annotations
 
-if __package__ in (None, ""):
-    import sys
-    from pathlib import Path
-
-    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-
 import gradio as gr
 
 from app.compare_tab import build_compare_tab
