@@ -4,6 +4,5 @@ h5py
 torch
 gradio
 plotly
-pysph  # optional, fallback to pure numpy
 scikit-learn
 mlflow
