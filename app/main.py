@@ -4,19 +4,9 @@ from __future__ import annotations
 
 import gradio as gr
 
-if __package__ in (None, ""):
-    import sys
-    from pathlib import Path
-
-    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-
-    from compare_tab import build_compare_tab
-    from pinn_tab import build_pinn_tab
-    from sim_tab import build_sim_tab
-else:
-    from app.compare_tab import build_compare_tab
-    from app.pinn_tab import build_pinn_tab
-    from app.sim_tab import build_sim_tab
+from app.compare_tab import build_compare_tab
+from app.pinn_tab import build_pinn_tab
+from app.sim_tab import build_sim_tab
 
 
 def build_app() -> gr.Blocks:
